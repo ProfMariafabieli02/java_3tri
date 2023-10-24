@@ -3,7 +3,7 @@ function tocaSomaplausos(){
 }
 const listadeteclas=document.querySelectorAll('.tecla');
 let contador=0;
-while(contador <8) {
+while(contador <listadeteclas.length) {
 
 listadeteclas[contador].onclick=tomSomAplausos;
 contador=contador +1 ;
