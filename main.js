@@ -1,5 +1,5 @@
-function tocaSomaplausos(){
-    document.querySelector("#som_tecla_aplausos").play();
+function tocaSom(idElementoAudio){
+    document.querySelector(idElementoAudio).play();
 }
 const listadeteclas=document.querySelectorAll('.tecla');
 let contador=0;
