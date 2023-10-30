@@ -12,3 +12,8 @@ listadeteclas[contador].onclick=function(){
 contador=contador +1 ;
 console.log(contador);
 }
+
+
+tecla.onkeydown= function(){
+    tecla.add('ativa');
+}
