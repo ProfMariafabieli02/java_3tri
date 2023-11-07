@@ -10,9 +10,9 @@ for(let contador=0;contador <listadeteclas.length; contador++) {
     tecla.onclick=function(){
     tocaSom(idAudio);
 }
-contador=contador +1 ;
+
 //console.log(contador);
-}
+
 
 
 tecla.onkeydown= function(){
